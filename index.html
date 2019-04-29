@@ -13,10 +13,75 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".top-menu" data-offset="50">
     <header class="header">
             <h1>Pusk</h1>
     </header>
     
+
+
+
+    <a href="#" class="scrollup">Наверх</a>
+
+    <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <script src="./js/lightbox.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 600) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+
+        });
+
+        $(document).ready(function () {
+            $('.projetos-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                arrows: true,
+                nextArrow: '<i class="fas fa-angle-double-right" aria-hidden="true"></i>',
+                prevArrow: '<i class="fas fa-angle-double-left" aria-hidden="true"></i>',
+                dots: false,
+                adaptiveHeight: true,
+
+                // slider responsivo
+                responsive: [
+                    {
+                        breakpoint: 1121,
+                        settings: {
+                            slidesToShow: 2,
+                            autoplay: true,
+                            adaptiveHeight: true,
+                        }
+                    },
+
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            autoplay: true,
+                            adaptiveHeight: true,
+                        }
+                    }
+                ]
+
+            });
+
+        });
+    </script>
 </body>
 </html>
