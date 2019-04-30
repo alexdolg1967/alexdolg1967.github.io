@@ -1,0 +1,130 @@
+@import url(d:\frilance\2019\04\doctor\alexdolg1967.github.io\css\fonts.css);
+@import url(d:\frilance\2019\04\doctor\alexdolg1967.github.io\css\normalize.css);
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.scrollup {
+  z-index: 55;
+  width: 71px;
+  height: 87px;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  text-indent: -9999px;
+  background: url("../img/up.jpg") no-repeat;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.group-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header {
+  padding: 35px 0;
+}
+
+.header-logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: auto;
+}
+
+.header-menu {
+  width: 100%;
+}
+
+.header-descr {
+  background: url(../img/header-bg.jpg) no-repeat center;
+  padding: 120px 0;
+}
+
+.header-descr__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-descr__title {
+  font-size: 60px;
+  line-height: 32px;
+  margin-bottom: 34px;
+}
+
+.header-descr__text {
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 60px;
+}
+
+.header-descr__button {
+  width: 220px;
+}
+
+.top-menu {
+  font-size: 20px;
+  line-height: 22px;
+  max-width: 750px;
+  width: 100%;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.top-menu__item {
+  text-align: center;
+}
+
+.top-menu__link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #212121;
+  white-space: nowrap;
+  display: block;
+  padding: 10px 20px;
+}
+
+.top-menu__link:hover {
+  text-decoration: none;
+}
+
+.top-menu__search {
+  color: #212121;
+  display: block;
+  margin-top: 2px;
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=style.css.map */

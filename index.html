@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Development project</title>
+    <title>Web Development project (ПРИМЕР ВЕРСТКИ)</title>
+    <meta name="description" content="Пример верстки - верстальщик Долгов А.И.">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -15,18 +17,55 @@
 </head>
 <body data-spy="scroll" data-target=".top-menu" data-offset="50">
     <header class="header">
-            <h1>Pusk</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 header-logo">
+                    <img src="./img/logo.png" alt="" srcset="">
+                </div>
+                <div class="col-7 header-menu">
+
+                    <ul class="top-menu">
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Home</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">About</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Servicing</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Portfolio</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Blog</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__link">Contact us</a></li>
+                        <li class="top-menu__item"><a href="#" class="top-menu__search">
+                            <i class="fas fa-search"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
     
+    <header class="header-descr">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                        <div class="header-descr__wrapper">
+                            <h1 class="header-descr__title">Web development project</h1>
+                            <p class="header-descr__text">Very suitable to support all web development projects</p>
+                            <div class="group-buttons">
+                                <button class="button header-descr__button">OUR SERVICES</button>
+                                <button class="button header-descr__button">HIRE IS NOW</button>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
 
 
 
     <a href="#" class="scrollup">Наверх</a>
 
     <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
-
-    <script src="./js/lightbox.min.js"></script>
     <script src="./js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -47,7 +86,7 @@
         });
 
         $(document).ready(function () {
-            $('.projetos-slider').slick({
+            $('.slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 autoplay: true,
