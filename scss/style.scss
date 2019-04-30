@@ -22,7 +22,7 @@ ul {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 17px;
     background-color: #ffffff;
     position: relative;
@@ -33,8 +33,20 @@ body {
     flex-wrap: wrap;
 }
 
+.button{
+    padding: 10px 25px;
+    margin: 0 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: transparent;
+    transition: .3s;
+}
+
 .header{
     padding: 35px 0;
+    
     &-logo{
         align-self: center;
         margin-right: auto;
@@ -47,6 +59,7 @@ body {
         background-size: cover;
         color: #ffffff;
         padding: 150px 0;
+        position: relative;
         &__wrapper{
             display: flex;
             width: 100%;
@@ -54,10 +67,10 @@ body {
             justify-content: center;
             align-items: center;
             text-align: center;
+            
         }
         &__title{
             font-size: 60px;
-            
             line-height: 1;
             margin-bottom: 34px;
         }
@@ -68,19 +81,20 @@ body {
         }
         &__button{
             width: 220px;
-            padding: 10px 25px;
-            margin: 0 10px;
-            font-size: 22px;
-            line-height: 22px;
-            color: #ffffff;
-            background-color: transparent;
-            transition: .3s;
+            &:hover{
+                font-weight: bold;
+                background-color: #00897b;
+                border: 2px solid #00897b;
+                border-radius: 15px;
+            }
         }
-        &__button:hover{
-            font-weight: bold;
-            background-color: #00897b;
-            border: 2px solid #00897b;
-        }
+    }
+    &-arrowDown{
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        margin-left: -12px;
+        font-size: 23px;
     }
 }
 
@@ -104,6 +118,7 @@ body {
         white-space: nowrap;
         display: block;
         padding: 10px 20px;
+        transition: .3s;
     }
     &__link:hover{
         text-decoration: none;
@@ -114,4 +129,83 @@ body {
         margin-top: 2px;
         padding: 10px 20px;
     }
+}
+
+.section{
+    padding: 130px 0;
+    &-header{
+        &__title{
+            margin-bottom: 25px;
+        }
+        & p{
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.about{
+    margin: 0 auto;
+    &-item{
+        min-width: 300px;
+        text-align: center;
+        padding: 10px;
+        &__title{
+            margin: 32px 0 18px 0;
+        }
+    }
+    
+}
+
+.services{
+    background-color: #e4fdf9;
+    &-item{
+        min-width: 300px;
+        text-align: center;
+        padding: 50px;
+        background-color: #ffffff;
+        margin: 15px;
+        width: 300px;
+        transition: .3s;
+        &__title{
+            margin: 32px 0 18px 0;
+        }
+        &__img{
+            display: block;
+            margin: auto auto;
+            &-hidden{
+                display: none;
+                margin: auto auto;
+            }
+        }
+        & p{
+            margin-bottom: 40px;
+        }
+        &:hover{
+            color: #ffffff;
+            background-color: #00897b;
+        }
+        &:hover .services-item__img{
+            display: none;
+        }
+        &:hover .services-item__img-hidden{
+            display: block;
+        }
+        &:hover .services-item__button{
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        &__button{
+            text-transform: uppercase;
+            color: #212121;
+            border: 2px solid #212121;
+            &:hover{
+                font-weight: bold;
+                border-radius: 15px;
+            }
+        }
+
+
+    }
+    
 }

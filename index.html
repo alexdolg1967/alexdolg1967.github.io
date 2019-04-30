@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Development project (ПРИМЕР ВЕРСТКИ)</title>
     <meta name="description" content="Пример верстки - верстальщик Долгов А.И.">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
@@ -15,6 +17,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body data-spy="scroll" data-target=".top-menu" data-offset="50">
     <header class="header">
         <div class="container">
@@ -25,46 +28,143 @@
                 <div class="col-7 header-menu">
 
                     <ul class="top-menu">
-                        <li class="top-menu__item"><a href="#" class="top-menu__link">Home</a></li>
-                        <li class="top-menu__item"><a href="#" class="top-menu__link">About</a></li>
-                        <li class="top-menu__item"><a href="#" class="top-menu__link">Servicing</a></li>
+                        <li class="top-menu__item"><a href="/" class="top-menu__link">Home</a></li>
+                        <li class="top-menu__item"><a href="#about" class="top-menu__link">About</a></li>
+                        <li class="top-menu__item"><a href="#services" class="top-menu__link">Servicing</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__link">Portfolio</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__link">Blog</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__link">Contact us</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__search">
-                            <i class="fas fa-search"></i></a>
+                                <i class="fas fa-search"></i></a>
                         </li>
-
                     </ul>
                 </div>
-            </div>
+            </div> <!-- /row -->
         </div>
     </header>
-    
+
     <header class="header-descr">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                        <div class="header-descr__wrapper">
-                            <h1 class="header-descr__title">Web development project</h1>
-                            <p class="header-descr__text">Very suitable to support all web development projects</p>
-                            <div class="group-buttons">
-                                <button class="button header-descr__button">OUR SERVICES</button>
-                                <button class="button header-descr__button">HIRE IS NOW</button>
-                            </div>
+                    <div class="header-descr__wrapper">
+                        <h1 class="header-descr__title">Web development project</h1>
+                        <p class="header-descr__text">Very suitable to support all web development projects</p>
+                        <div class="group-buttons">
+                            <button class="button header-descr__button">OUR SERVICES</button>
+                            <button class="button header-descr__button">HIRE IS NOW</button>
                         </div>
+                    </div>
                 </div>
-
-            </div>
+            </div> <!-- /row -->
+        </div>
+        <div class="header-arrowDown">
+            <i class="fas fa-chevron-down"></i>
         </div>
     </header>
 
+    <section class="section about" id="#about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-header text-center">
+                    <h2 class="section-header__title">
+                        About Us
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem corporis neque distinctio dolores
+                        praesentium nobis numquam </p>
+                </div>
+            </div> <!-- /row -->
+            <div class="row justify-content-center">
+                <div class="col-4 about-item">
+                    <img src="./img/internet.png" alt="" srcset="">
+                    <h4 class="about-item__title">Awesome Icons</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsam.</p>
+                </div>
+                <div class="col-4 about-item">
+                    <img src="./img/transfer.png" alt="" srcset="">
+                    <h4 class="about-item__title">Awesome Icons</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsam.</p>
+                </div>
+                <div class="col-4 about-item">
+                    <img src="./img/head.png" alt="" srcset="">
+                    <h4 class="about-item__title">Awesome Icons</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsam.</p>
+                </div>
+            </div> <!-- /row -->
+        </div>
+    </section>
+
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-header text-center">
+                    <h2 class="section-header__title">
+                        Our Services
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem corporis neque distinctio dolores
+                        praesentium nobis numquam </p>
+                </div>
+            </div> <!-- /row -->
+            <div class="row justify-content-center">
+                <div class="col-4 services-item">
+                    <img src="./img/smartfon-0.png" class="services-item__img" alt="" srcset="">
+                    <img src="./img/smartfon-f.png" class="services-item__img-hidden" alt="" srcset="">
+                    <h4 class="services-item__title">Research</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        iti atque corrupti quos.</p>
+                    <button class="button services-item__button">Read more</button>
+                </div>
+                <div class="col-4 services-item">
+                    <img src="./img/smartfon-0.png" class="services-item__img" alt="" srcset="">
+                    <img src="./img/smartfon-f.png" class="services-item__img-hidden" alt="" srcset="">
+                    <h4 class="services-item__title">Research</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        iti atque corrupti quos.</p>
+                    <button class="button services-item__button">Read more</button>
+                </div>
+                <div class="col-4 services-item">
+                    <img src="./img/smartfon-0.png" class="services-item__img" alt="" srcset="">
+                    <img src="./img/smartfon-f.png" class="services-item__img-hidden" alt="" srcset="">
+                    <h4 class="services-item__title">Research</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        iti atque corrupti quos.</p>
+                    <button class="button services-item__button">Read more</button>
+                </div>
+                <div class="col-4 services-item">
+                    <img src="./img/smartfon-0.png" class="services-item__img" alt="" srcset="">
+                    <img src="./img/smartfon-f.png" class="services-item__img-hidden" alt="" srcset="">
+                    <h4 class="services-item__title">Research</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        iti atque corrupti quos.</p>
+                    <button class="button services-item__button">Read more</button>
+                </div>
+                <div class="col-4 services-item">
+                    <img src="./img/smartfon-0.png" class="services-item__img" alt="" srcset="">
+                    <img src="./img/smartfon-f.png" class="services-item__img-hidden" alt="" srcset="">
+                    <h4 class="services-item__title">Research</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        iti atque corrupti quos.</p>
+                    <button class="button services-item__button">Read more</button>
+                </div>
+                <div class="col-4 services-item">
+                    <img src="./img/smartfon-0.png" class="services-item__img" alt="" srcset="">
+                    <img src="./img/smartfon-f.png" class="services-item__img-hidden" alt="" srcset="">
+                    <h4 class="services-item__title">Research</h4>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        iti atque corrupti quos.</p>
+                    <button class="button services-item__button">Read more</button>
+                </div>
+            </div> <!-- /row -->
+        </div>
+    </section>
 
 
     <a href="#" class="scrollup">Наверх</a>
 
     <!-- <script src="./js/jquery-3.3.1.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
     <script type="text/javascript">
@@ -123,4 +223,5 @@
         });
     </script>
 </body>
+
 </html>
