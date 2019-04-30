@@ -31,7 +31,7 @@
                         <li class="top-menu__item"><a href="/" class="top-menu__link">Home</a></li>
                         <li class="top-menu__item"><a href="#about" class="top-menu__link">About</a></li>
                         <li class="top-menu__item"><a href="#services" class="top-menu__link">Servicing</a></li>
-                        <li class="top-menu__item"><a href="#" class="top-menu__link">Portfolio</a></li>
+                        <li class="top-menu__item"><a href="#works" class="top-menu__link">Portfolio</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__link">Blog</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__link">Contact us</a></li>
                         <li class="top-menu__item"><a href="#" class="top-menu__search">
@@ -158,6 +158,77 @@
         </div>
     </section>
 
+    <section class="section works" id="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-header text-center">
+                    <h2 class="section-header__title">
+                        Latest Works
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem corporis neque distinctio dolores
+                        praesentium nobis numquam </p>
+                </div>
+            </div> <!-- /row -->
+            <div class="row ">
+                <div class="works-filter group-buttons mx-auto justify-content-center">
+                    <button class="button works-filter__button" filter="all">All</button>
+                    <button class="button works-filter__button" filter="wd">Web design</button>
+                    <button class="button works-filter__button" filter="ud">Ui/Ux design</button>
+                    <button class="button works-filter__button" filter="moc">Mockups</button>
+                </div>
+            </div> <!-- /row -->
+            <div class="row works-wrapper justify-content-center">
+                <div class="col-4 works-item" filter="wd">
+                    <img class="mx-auto d-block works-item__img" src="./img/works1.png" alt="" srcset="">
+                    <div class="works-item__text">
+                        <h4 class="works-item__title">Hand Watch</h4>
+                        <b>ui/ux design</b>
+                    </div>
+                </div>
+                <div class="col-4 works-item" filter="ud">
+                    <img class="mx-auto d-block works-item__img" src="./img/works2.png" alt="" srcset="">
+                    <div class="works-item__text">
+                        <h4 class="works-item__title">Hand Watch</h4>
+                        <b>ui/ux design</b>
+                    </div>
+                </div>
+                <div class="col-4 works-item" filter="wd">
+                    <img class="mx-auto d-block works-item__img" src="./img/works3.png" alt="" srcset="">
+                    <div class="works-item__text">
+                        <h4 class="works-item__title">Hand Watch</h4>
+                        <b>ui/ux design</b>
+                    </div>
+                </div>
+                <div class="col-4 works-item" filter="moc">
+                    <img class="mx-auto d-block works-item__img" src="./img/works4.png" alt="" srcset="">
+                    <div class="works-item__text">
+                        <h4 class="works-item__title">Hand Watch</h4>
+                        <b>ui/ux design</b>
+                    </div>
+                </div>
+                <div class="col-4 works-item" filter="ud">
+                    <img class="mx-auto d-block works-item__img" src="./img/works5.png" alt="" srcset="">
+                    <div class="works-item__text">
+                        <h4 class="works-item__title">Hand Watch</h4>
+                        <b>ui/ux design</b>
+                    </div>
+                </div>
+                <div class="col-4 works-item" filter="moc">
+                    <img class="mx-auto d-block works-item__img" src="./img/works6.png" alt="" srcset="">
+                    <div class="works-item__text">
+                        <h4 class="works-item__title">Hand Watch</h4>
+                        <b>ui/ux design</b>
+                    </div>
+                </div>
+            </div> <!-- /row -->
+            <div class="row ">
+                <div class="col-12 text-center align-items-center">
+                    <button class="button works-filter__button" filter="all">View all</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <a href="#" class="scrollup">Наверх</a>
 
@@ -171,7 +242,7 @@
         $(document).ready(function () {
 
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 600) {
+                if ($(this).scrollTop() > 300) {
                     $('.scrollup').fadeIn();
                 } else {
                     $('.scrollup').fadeOut();

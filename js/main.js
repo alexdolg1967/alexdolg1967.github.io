@@ -45,6 +45,18 @@ $("#footer-menu a").on('click', function(event){
   });
 });
 
+$(document).ready(function() {
+  $(".works-filter__button[filter]").click(function() {
+    if ($(this).attr("filter") && $(this).attr("filter") !== "all") {
+      $(".works-wrapper > div*[filter !='" + $(this).attr('filter') + "']").fadeOut(350);
+      $(".works-wrapper > div*[filter ='" + $(this).attr('filter') + "']").fadeIn(350);
+    } else {
+      $(".works-wrapper > div").fadeIn(350); 
+    }
+    $(".works-filter__button[filter]").removeClass('focused');
+    $(this).addClass('focused');
+  });
+});
 
     
 
