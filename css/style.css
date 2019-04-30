@@ -311,7 +311,8 @@ body {
 
 .price-item {
   min-width: 370px;
-  margin: 15px;
+  max-width: 370px;
+  margin: 20px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -361,15 +362,44 @@ body {
 }
 
 .price-item__button {
+  text-transform: none;
   margin-top: 50px;
   color: #212121;
   background-color: transparent;
   border: 2px solid #212121;
-  margin: 25px 0 45px 0;
+  margin: 45px 0;
 }
 
 .price-item__button:hover, .price-item__button:focus, .price-item__button:active {
   background-color: #00897b;
   border-radius: 15px;
+}
+
+.team {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.team-item {
+  min-width: 300px;
+  max-width: 370px;
+  text-align: center;
+}
+
+.team-item img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.team .social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.team i .fa-square {
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
