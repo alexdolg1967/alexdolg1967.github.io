@@ -299,4 +299,77 @@ body {
   -webkit-transition: .3s;
   transition: .3s;
 }
+
+.price {
+  background-color: #f0f1f1;
+  color: #000000;
+}
+
+.price .col-4 {
+  padding-left: 0;
+}
+
+.price-item {
+  min-width: 370px;
+  margin: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.price-item:hover {
+  -webkit-box-shadow: 0px 3px 25px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 3px 25px 0px rgba(0, 0, 0, 0.35);
+}
+
+.price-item__header {
+  height: 209px;
+  width: 370px;
+  color: #ffffff;
+  padding: 40px 0 20px 0;
+  background-image: url(../img/plan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.price-item__header h6 {
+  font-size: 26px;
+  -webkit-margin-after: 35px;
+          margin-block-end: 35px;
+}
+
+.price-item__header sup {
+  font-size: 25px;
+}
+
+.price-item__header span {
+  font-size: 50px;
+}
+
+.price-item__header sub {
+  font-size: 17px;
+}
+
+.price-item ul li {
+  max-width: 175px;
+  margin: 0 auto;
+  padding: 30px 0;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.price-item__footer {
+  padding: 30px 0;
+}
+
+.price-item__button {
+  margin-top: 50px;
+  color: #212121;
+  background-color: transparent;
+  border: 2px solid #212121;
+  margin: 25px 0 45px 0;
+}
+
+.price-item__button:hover, .price-item__button:focus, .price-item__button:active {
+  background-color: #00897b;
+  border-radius: 15px;
+}
 /*# sourceMappingURL=style.css.map */
