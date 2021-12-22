@@ -6,4 +6,4 @@ Full statistics
 
 Hide statictics
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexdolg1967&hide=contribs,prs)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexdolg1967&&hide=stars,commits,prs,issues,contribs)
