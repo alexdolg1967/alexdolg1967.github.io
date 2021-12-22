@@ -1,6 +1,6 @@
 # alexdolg1967.github.io
 
-### Hi there 👋, my name is Alexey Dolgov
+### Hi there 👋, my name is [Alexey Dolgov](https://github.com/alexdolg1967)
 #### I am Frontend Developer
 
 
