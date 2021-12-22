@@ -1,18 +1,18 @@
 # alexdolg1967.github.io
 
-Full statistics
-
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexdolg1967&show_icons=true)
-
 ### Hi there 👋, my name is Alexey Dolgov
 #### I am Frontend Developer
-![I am Frontend Developer](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+
 
 I have an excellent command of HTML, I write CSS code using a CSS preprocessor, I deepen my knowledge of JS.
 I am currently continuing to study React & Redux and Vue.
 
 Skills: REACT / JS / HTML / CSS / FLEX / GRID
+
+Full statistics
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alexdolg1967&show_icons=true)
+
 
 - 🔭 I’m currently working on this page. 
 
